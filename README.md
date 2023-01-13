@@ -24,4 +24,4 @@ Im Ordner dann das Dokument `wetterstation.tex` compilen:
 pdflatex wetterstation.tex
 ```
 **Wichtig:** Das compilen muss 2x durchgeführt werden da für
-das Inhaltsverzeichis *Kreuzreferenziert* werden muss.
+das Inhaltsverzeichis *kreuzreferenziert* werden muss.
