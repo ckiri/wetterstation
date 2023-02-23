@@ -11,6 +11,11 @@
  * Das System wird auf einem Espressif ESP8266 Microcontroller
  * realisiert.
  */
+
+/* TODO: Auf dynamische Programmierung anpassen. D.h. keine delay()
+ * Funktionen verwenden, sondern milis().
+ */
+
 #include <stdio.h>
 #include <Arduino.h>
 #include <Adafruit_Sensor.h>                                          // Abstraktionsschicht für Luftfeucht.- & Temp.-Sensor
