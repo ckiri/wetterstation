@@ -1,0 +1,24 @@
+@startuml
+start
+
+:MQ-2 Sensor\nkalibrieren;
+#palegreen:Serielle Ausgabe\n"Kalibrierung\nAbgeschlossen!";
+
+repeat
+    :Verbinden mit Netzwerk;
+repeat while (verbunden?) is (nein)
+#palegreen:Serielle Ausgabe\n"Verbunden!";
+
+repeat
+    :Verbinden mit MQTT Broker;
+backward:Serielle Ausgabe\n"Fehlercode";
+repeat while (verbunden?) is (nein)
+#palegreen:Serielle Ausgabe\n"Verbunden!";
+
+repeat
+    :Sensor auslesen;
+    #palegreen:Serielle Ausgabe\n"GrößeX:WertYEinheitZ";
+    :Daten an Broker\nveröffentlichen;
+repeat while ()
+
+@enduml
