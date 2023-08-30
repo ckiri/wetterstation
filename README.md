@@ -9,6 +9,6 @@ Wetterstation empfangen. Es wird ein Digitaler Sensor eingelesen welcher
 Temperatur und Luftfeuctigkeit misst, sowie ein Analoger Sensor welcher
 für die Detektierung von Rauch zuständig ist.
 
-Für genauere Informationen lohnt sich ein Blick in die [Dokumentation](https://github.com/ckiri/wetterstation-dokumentation)
+Für genauere Informationen lohnt sich ein Blick in die [Dokumentation](doc/README.md)
 oder in den [Sourcecode](https://github.com/ckiri/wetterstation/tree/main/src).
 
